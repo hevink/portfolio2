@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 
 import { useForm, ValidationError } from '@formspree/react';
 const Contact_us = () => {
+    
     useEffect(() => {
         Aos.init({ duration: 1000 })
     })
